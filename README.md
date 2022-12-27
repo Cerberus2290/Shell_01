@@ -12,3 +12,35 @@
 3. [Exercise 03 : ](#ex03)
 4. [Exercise 04 : ](#ex04)
 5. [Exercise 05 : ](#ex05)
+
+# <a name="ex01">Exercise 01 : print_groups</a>
+
+| ![Logo_Monolith_small](https://user-images.githubusercontent.com/120580537/209333599-dc44418d-8ee7-42b6-8a4a-7ff328778d87.png) | Exercise 01 |
+|-------------------------------------------------------|--------------------------------------------------|
+| | print_groups.sh |
+| Turn-in directory: | ex01/ |
+| Files to turn in: | print_groups.sh |
+| Allowed functions: | None |
+
+* Write a command line that will display the list of groups for which the login, contained in the environment variable FT_USER , is a member. Separated by commas without spaces.
+
+* Examples:
+  * for FT_USER=nours, the result is "god,root,admin,master,nours,bocal" (without quotation marks)
+
+```
+$>./print_groups.sh
+god,root,admin,master,nours,bocal$>
+```
+
+  * for FT_USER=daemon, the result is "daemon,bin" (without quotation marks)
+
+```
+$>./print_groups.sh
+daemon,bin$>
+```
+
+### 💡 [man](https://man7.org/linux/man-pages/man1/id.1.html) **id** 💡
+
+<p align="right">
+ <a href="https://github.com/Cerberus2290/Shell_01#-beware-">back to top</a>
+</p>
