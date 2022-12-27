@@ -8,7 +8,7 @@
 # Contents
 
 1. [Exercise 01 : print_groups](#ex01)
-2. [Exercise 02 : ](#ex02)
+2. [Exercise 02 : find_sh](#ex02)
 3. [Exercise 03 : ](#ex03)
 4. [Exercise 04 : ](#ex04)
 5. [Exercise 05 : ](#ex05)
@@ -40,6 +40,32 @@ daemon,bin$>
 ```
 
 ### 💡 [man](https://man7.org/linux/man-pages/man1/id.1.html) **id** 💡
+
+<p align="right">
+ <a href="https://github.com/Cerberus2290/Shell_01#-beware-">back to top</a>
+</p>
+
+# <a name="ex02">Exercise 02 : find_sh</a>
+
+| ![Logo_Monolith_small](https://user-images.githubusercontent.com/120580537/209333599-dc44418d-8ee7-42b6-8a4a-7ff328778d87.png) | Exercise 02 |
+|-------------------------------------------------------|--------------------------------------------------|
+| | find_sh.sh |
+| Turn-in directory: | ex02/ |
+| Files to turn in: | find_sh.sh |
+| Allowed functions: | None |
+
+* Write a command line that searches for all file names that end with ".sh" (without quotation marks) in the current directory and all its sub-directories. It should display only the file names without the .sh.
+
+* Example of output:
+
+```
+$>./find_sh.sh | cat -e
+find_sh$
+file1$
+file2$
+file3$
+$>
+```
 
 <p align="right">
  <a href="https://github.com/Cerberus2290/Shell_01#-beware-">back to top</a>
